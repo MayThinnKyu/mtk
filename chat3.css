@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar{
+	
+}
+.navbar-brand{
+	margin:0;
+	padding:0;
+}
+
+.logo{
+	height:50px;
+	padding-left: 15px;
+	padding-right:5px;
+}
+
+.navbar-inverse{
+	height: 65px;
+	padding-top: 5px;
+	border-color: antiquewhite;
+	background-color: antiquewhite;
+}
+
+p>navbar-text{
+	margin:10px;
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.row{
+	margin:0;
+	padding:0;
+}
+
+.side-bar{
+	margin: 0 auto;
+	top:0;
+}
+
+.menu {
+	float: left;
+	height: 700px;;
+	width: 70px;
+	background: #4768b5;  
+}
+
+.menu .items {
+ 	list-style:none;
+ 	margin: auto;
+ 	padding: 0;
+}
+
+.menu .items .item {
+	height: 70px;
+ 	border-bottom: 1px solid #6780cc;
+ 	display:flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: #9fb5ef;
+ 	font-size: 17pt;
+}
+
+.menu .items .item-active {
+ 	background-color:#5172c3;
+ 	color: #FFF;
+}
+
+.menu .items .item:hover {
+	cursor: pointer;
+	background-color: #4f6ebd;
+	color: #cfe5ff;
+}
+
